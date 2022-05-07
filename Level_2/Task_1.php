@@ -1,8 +1,6 @@
 <?php 
 define('m', 4);
 define('n', 4);
-define('min',1);
-define("max",99);
 
 $matrix = array(
     [1, 2, 3, 4],
