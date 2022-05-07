@@ -16,7 +16,6 @@ for ($i=0; $i<$count2; $i++) {
 echo PHP_EOL;
 $c = array_merge($a,$b);
 $c = array_unique($c);
-sort($c);
 echo "Результат: ".implode(" ", $c).PHP_EOL;
 echo "К-сть ел-тів: ".count($c)." Сума ел-тів: ".array_sum($c);
 
