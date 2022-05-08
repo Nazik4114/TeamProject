@@ -1,10 +1,6 @@
 <?php
 define('m', 5);
 define('n', 3);
-$arr = [];
-for($i = 0; $i < m; $i++){
-    $arr[$i] = [];
-}
 for($i = 0; $i < m; $i++){
     for($o = 0; $o < n; $o++){
         $arr[$i][$o] = rand(1, 10);
@@ -13,7 +9,6 @@ for($i = 0; $i < m; $i++){
     print_r("<br>");
 }
 print_r("<br>");
-$temp;
 for($i = 0; $i < m; $i++){
     for($o = 0; $o < n; $o++){
         $temp = $arr[$i][$o];
