@@ -13,6 +13,12 @@
             .booked {
                 background-color: red;
             }
+            .disabled {
+              color: red;
+            }
+            .free {
+              color: green;
+            }
         </style>
     </head>
     <body>
