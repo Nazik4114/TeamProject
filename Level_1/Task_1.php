@@ -20,7 +20,4 @@ for ($i = 0; $i < COUNT($numbers); $i++) {
   }
 }
 
-echo "Результат:" . PHP_EOL;
-for ($i = 0; $i < COUNT($numbers); $i++) {
-  echo $numbers[$i] . " ";
-}
+echo "Результат: ".implode(" ", $numbers).PHP_EOL;
