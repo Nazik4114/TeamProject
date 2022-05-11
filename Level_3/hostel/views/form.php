@@ -13,6 +13,6 @@
         <?php endforeach  ?>
     </select>
     <br><br>
-    <input type="submit" name="go" value="Зарезервувати">
-    <input type="submit" name="go_out" value="Звільнити номер">
+    <input type="submit" name="go" value="Зарезервувати" class="reserve">
+    <input type="submit" name="go_out" value="Звільнити номер" class="moveOut">
 </form>

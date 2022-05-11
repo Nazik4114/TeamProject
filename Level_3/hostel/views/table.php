@@ -3,7 +3,7 @@
     <table cellpadding="1" cellspacing="1" border="1">
         <?php foreach($flats as $floor => $rooms): ?>
             <tr>
-                <td><?= $floor ?></td>
+                <td class="floorNumber"><?= $floor ?></td>
                 <?php foreach($rooms as $room_number => $options): ?>
                     <td>
                         <?php $booked_css = ('booked' == $options['status'])? 'booked':'' ?>
