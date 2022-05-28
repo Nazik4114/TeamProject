@@ -11,14 +11,14 @@
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: 1350px, auto;
+                background-size: auto, auto;
                 margin: 0px;
             }
             .mainPage{
-                width: 40%;
-                height: 250px;
-                margin: auto;
-                margin-top: 15%;
+                width: auto;
+                height: auto;
+                margin: 10%;
+                margin-top: 10%;
                 text-align: center;
                 font-family: 'Arial';
                 font-size: 100%;

@@ -3,7 +3,7 @@
 define('FLAT_STATUSES', ['booked', 'cleaning', 'free']);
 
 define('FLAT_NUMBER_FROM', "A");
-define('FLAT_NUMBER_TO', "F");
+define('FLAT_NUMBER_TO', "Z");
 
 define('FLAT_PRICE_MIN', 300);
 define('FLAT_PRICE_MAX', 1500);
